@@ -1,10 +1,101 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(180, 52%, 96%);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* .jobCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+}  */
+
+.subcont {
+  display: flex;
+  
+  align-items: center;
+  flex-direction: row;
+  margin: 50px;
+  background-color: white;
+  border-radius: 10px;
+  width: 1000px;
+  height: 200px;
+  
+ 
 }
 
-.header-img{
-    width: 100vw;
-    height: 150px;
+
+.job-info {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.info-cont {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 20px;
+  gap: 10px;
+}
+.time {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.filterButtons {
+  display: flex;
+  flex-direction: row;
+ 
+  gap: 20px;
+  width: 80px;
+  height: 20px;
+  margin-left: 100px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(180, 31%, 95%);
+  border-style: none;
+  border-radius: 3px;
+  color:hsl(180, 43%, 42%) ;
+  font-size: 15px;
+  padding: 10px;
+  width: 200px;
+  height: 30px;
+}
+
+.img-info{
+    display: flex;
+    margin-left: 40px;
+}
+.company{
+    color: hsl(180, 43%, 42%);
+    font-size: medium;
+    font-weight: bold;
+    
+}
+.newBadge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: hsl(180, 43%, 42%);
+    color: white;
+    border-radius: 10px;
+    padding: 3px;
+}
+.featureBadge{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 8px;
 }
