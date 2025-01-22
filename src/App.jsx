@@ -2,8 +2,6 @@ import "./App.css";
 import data from "/Users/sanjaysingh/Desktop/filtering jobs/data.json";
 
 function App() {
-  const tag = data.filter((item) => item.new === true);
-  const feature = data.filter((item) => item.featured === true);
 
   return (
     <>
@@ -13,6 +11,14 @@ function App() {
           src="images/bg-header-desktop.svg"
           alt="header_img"
         />
+        <div className="filterBar">
+          <div className="filButton">
+          <p className="filterSelect">Frontend</p>
+          <button className="removeButton">X</button>
+          </div>
+        
+          <button className="clear">clear</button>
+        </div>
         <div className="jobCard">
           <div className="job-sub"></div>
           {data.map((item) => (
