@@ -32,7 +32,7 @@ function App() {
       <div className="container">
         <img
           className="header-img"
-          src="images/bg-header-desktop.svg"
+          src="public/images/bg-header-desktop.svg"
           alt="header_img"
         />
 
