@@ -30,11 +30,7 @@ function App() {
   return (
     <>
       <div className="container">
-        <img
-          className="header-img"
-          src="public/images/bg-header-desktop.svg"
-          alt="header_img"
-        />
+      <img className="header-img" src="/images/bg-header-desktop.svg" alt="header_img" />
 
         {selectedFilter.length>0 && (
            <div className="filterBar">
