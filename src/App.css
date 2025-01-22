@@ -128,6 +128,9 @@ button {
 
 }
 .filterSelect{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
     color: hsl(180, 43%, 42%);
     background-color: hsl(180, 52%, 96%);
     
