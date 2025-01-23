@@ -1,5 +1,5 @@
 import "./App.css";
-import data from "/Users/sanjaysingh/Desktop/filtering jobs/data.json";
+import data from "./data.json";
 import { useState } from "react";
 
 function App() {
